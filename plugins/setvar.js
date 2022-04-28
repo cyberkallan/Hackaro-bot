@@ -126,9 +126,9 @@ All setvars are
 
  .setvar TAG_REPPLY:your jid 
 
-     *happy using Lizamwol bot 🧚‍♂️*
+     *happy using Hackaro bot 🧚‍♂️*
 
-*Editing And Devaloper : Nithin-Faya*
+*Editing And Devaloper : team denotech*
 
 *Erorr Fixing : Fayas Ser💘*
 
