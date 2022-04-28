@@ -5,7 +5,7 @@
     "keywords": ["whatsapp", "userbot", "Liza", "WhatsAsena", "mwol", "bot", "ai"],
     "repository": "https://github.com/cyberkallan/Hackaro-bot",
     "website":   "https://github.com/cyberkallan/Hackaro-bot",
-    "success_url": "https://github.com/Chunkindepadayali/LIZA-MWOL",
+    "success_url": "https://github.com/cyberkallan/Hackaro-bot",
     "stack": "container",
     "env": {
         "LIZA_SESSION": {
