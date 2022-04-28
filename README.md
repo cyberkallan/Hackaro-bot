@@ -1,6 +1,6 @@
 
 <h1 align="center">
-  <img src="https://raw.githubusercontent.com/Chunkindepadayali/LIZA-MWOL/master/Its-me-liza-mwol.gif" alt="LIZA MWOL" />
+  <img src="https://raw.githubusercontent.com/cyberkallan/Hackaro-bot/master/Its-me-liza-mwol.gif" alt="LIZA MWOL" />
 </h1>
   
 ## Setup
