@@ -141,12 +141,12 @@
         "BOT_NAME": {
             "description": "heading for .list command reply",
             "required": false,
-            "value": "  𝐋𝐈𝐙𝐀 𝐌𝐖𝐎𝐋࿐  \n\n   *ωнαтsαρρ вσт™*   \n"
+            "value": "  hackaro࿐  \n\n   *ωнαтsαρρ вσт™*   \n"
         },
         "BOTV2_NAME": {
             "description": "heading for bgm command reply",
             "required": false,
-            "value": "ꪶ͢ɪͥᴛͭsᷤ ͢ᴍͫᴇͤᡃ⃝ʟɪᴢᴀ ᴍᴏʟ࿐"
+            "value": "hackaro࿐"
         },
         "BGM_DURATION": {
             "description": "FUNY BGM DURATION  codded by (hunk!nd3 p4d4y41!",
@@ -154,7 +154,7 @@
             "value": "7280542"
         },
         "WORK_TYPE": {
-            "description": "Liza Mwol Working Type. If you use “public”, everyone can use the bot. Else if you use “private”, only you can use your bot.",
+            "description": "hacakro bot Working Type. If you use “public”, everyone can use the bot. Else if you use “private”, only you can use your bot.",
             "required": true,
             "value": "public"
         },
@@ -189,12 +189,12 @@
         "LG_LOGO": {
             "description": "LOGO list message image link(https://telegra.ph/)link.",
             "required": true,
-            "value": "https://telegra.ph/file/0e0409148fa47cdb92582.jpg"
+            "value": "https://telegra.ph/file/1f9be8ab6efd4ae8a07ab.jpg"
         },
         "LOGO_NAME": {
             "description": "Set the logo list name",
             "required": true,
-            "value": "ꪶ͢ɪͥᴛͭsᷤ ͢ᴍͫᴇͤᡃ⃝ʟɪᴢᴀ ᴍᴏʟ࿐"
+            "value": "hacakro࿐"
         },
         "BAN_MESSAGE": {
             "description": "Customizable Ban Message! Use => default, to change back.",
