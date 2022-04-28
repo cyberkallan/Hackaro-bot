@@ -13,15 +13,15 @@ Asena.addCommand({pattern: 'git', fromMe: false, desc: Lang.GL}, (async (message
 
     await message.sendMessage(Buffer(respoimage.data), MessageType.image, {quoted: message.data , thumbnail: fs.readFileSync('liza mwol v2.jpg'), mimetype: Mimetype.png, caption: `~========~ ʟɪɴᴋs ~========~ 
  
-ᴏᴡɴᴇʀ ɴᴜᴍʙᴇʀ wa.me/918137829228
+ᴏᴡɴᴇʀ ɴᴜᴍʙᴇʀ wa.me/918900000800
    
-ᴏᴡɴᴇʀ ɴᴜᴍʙᴇʀ wa.me/918075379950
+ᴏᴡɴᴇʀ ɴᴜᴍʙᴇʀ wa.me/918900000800
 
 
-Wʜᴀᴛsᴀᴘᴘ ɢʀᴏᴜᴘ : https://chat.whatsapp.com/EfzzqyQ0JANCvyATuhAaKe
+Wʜᴀᴛsᴀᴘᴘ ɢʀᴏᴜᴘ : https://chat.whatsapp.com/Jac2vfHf37L4d4SOgPkTl7
 
 
-ɢɪᴛʜᴜʙ ʟɪɴᴋ : https://github.com/Chunkindepadayali/LIZA-MWOL
+ɢɪᴛʜᴜʙ ʟɪɴᴋ : https://github.com/Cyberkallan
 
  
 `}) 
