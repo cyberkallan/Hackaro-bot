@@ -130,11 +130,11 @@ All setvars are
 
 *Editing And Devaloper : team denotech*
 
-*Erorr Fixing : Fayas Ser💘*
+*Erorr Fixing : Sherry wilson💘*
 
-*Supporting : Black mods*
+*Supporting : kcg*
 
-*User Support : Nithin*
+*User Support : simuio Indonesia*
 
       ═════💢💢═════
 
