@@ -7,7 +7,7 @@ const { Sequelize } = require('sequelize');
 const fs = require('fs');
 if (fs.existsSync('config.env')) require('dotenv').config({ path: './config.env' });
 
-// Özel Fonksiyonlarımız
+// Ã–zel FonksiyonlarÄ±mÄ±z
 function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
@@ -19,8 +19,8 @@ module.exports = {
     VERSION: 'v8.0.0',
     CHANNEL: 'https://t.me/remasterplugin',
     SESSION: process.env.LIZA_SESSION === undefined ? '' : process.env.LIZA_SESSION,
-    ANTİLİNK: process.env.ANTİ_LİNK === undefined ? 'false' : process.env.ANTİ_LİNK,
-    AUTOBİO: process.env.AUTO_BİO === undefined ? 'false' : process.env.AUTO_BİO,
+    ANTÄ°LÄ°NK: process.env.ANTÄ°_LÄ°NK === undefined ? 'false' : process.env.ANTÄ°_LÄ°NK,
+    AUTOBÄ°O: process.env.AUTO_BÄ°O === undefined ? 'false' : process.env.AUTO_BÄ°O,
     GANSTYLE: process.env.GAN_IMAGE === undefined ? 'https://i.hizliresim.com/loUtAb.jpg' : process.env.GAN_IMAGE,
 
     PM_BLOCK: process.env.PM_BLOCK === undefined ? 'false' : process.env.PM_BLOCK,
@@ -39,11 +39,11 @@ module.exports = {
     DISBGM: process.env.DISABLE_JID_BGM_FILTER === undefined ? false : process.env.DISABLE_JID_BGM_FILTER,
     STICKERP: process.env.AUTO_STICKER === undefined ? true : convertToBool(process.env.AUTO_STICKER),
     DISSTICKER: process.env.DISABLE_STICKER === undefined ? false : process.env.DISABLE_STICKER,
-    BOTLIZA: process.env.BOT_NAME === undefined ? '  𝐋𝐈𝐙𝐀 𝐌𝐖𝐎𝐋࿄1�7  \n\n   *ωнαтsαρρ вσт℄1�7*   \n' : process.env.BOT_NAME,
+    BOTLIZA: process.env.BOT_NAME === undefined ? '  ð‹ðˆð™ð€ ðŒð–ðŽð‹à¿„1¤7  \n\n   *Ï‰Ð½Î±Ñ‚sÎ±ÏÏ Ð²ÏƒÑ‚â„„1¤7*   \n' : process.env.BOT_NAME,
     NOLOG: process.env.NO_LOG === undefined ? 'false' : process.env.NO_LOG,
     THERI_KICK: process.env.THERI_KICK === undefined ? 'false' : process.env.THERI_KICK,
-    SONGD: process.env.SONGD === undefined ? '✮⃝🕊️𝕯𝖔𝖜𝖓𝖑𝖔𝖆𝖉𝖎𝖓𝖄1�7 𝖄𝖔𝖚𝖗 𝕾𝖔𝖓𝖌✮⃝🕊︄1�7' : process.env.SONGD,
-    SONGU: process.env.SONGU === undefined ? '✮⃝🕊️✿𝖀𝖕𝖑𝖔𝖆𝖉𝖎𝖓𝖌 𝖄𝖔𝖚𝖗 𝕾𝖔𝖓𝖌✿✮⃝🕊️' : process.env.SONGU,
+    SONGD: process.env.SONGD === undefined ? 'âœ®âƒðŸ•Šï¸ð•¯ð–”ð–œð–“ð–‘ð–”ð–†ð–‰ð–Žð–“ð–„1¤7 ð–„ð–”ð–šð–— ð•¾ð–”ð–“ð–Œâœ®âƒðŸ•Šï¸„1¤7' : process.env.SONGD,
+    SONGU: process.env.SONGU === undefined ? 'âœ®âƒðŸ•Šï¸âœ¿ð–€ð–•ð–‘ð–”ð–†ð–‰ð–Žð–“ð–Œ ð–„ð–”ð–šð–— ð•¾ð–”ð–“ð–Œâœ¿âœ®âƒðŸ•Šï¸' : process.env.SONGU,
     FULLEVA: process.env.FULL_EVA === undefined ? 'false' : process.env.FULL_EVA,
     BLOCKMSG: process.env.BLOCK_MESSAGE === undefined ? 'default' : process.env.BLOCK_MESSAGE,
     UNBLOCKMSG: process.env.UNBLOCK_MESSAGE === undefined ? 'default' : process.env.UNBLOCK_MESSAGE,
@@ -63,12 +63,12 @@ module.exports = {
     OWNERSHIP: process.env.OWNER_SHIP === undefined ? 'LIZA-MWOL' : process.env.OWNER_SHIP,
     LIZA: process.env.LOGO_LINK === undefined ? 'https://i.imgur.com/Z1jCYGN.mp4' : process.env.LOGO_LINK,
     MWOL: process.env.BGM_DURATION === undefined ? '7280542' : process.env.BGM_DURATION,
-    BOTV2: process.env.BOTV2_NAME === undefined ? 'ꪶ͢ɪͥᴛͭs᷄1�7 ͢ᴍͫᴇͤᡃ⃝ʟɪᴢᴀ ᴍᴏʟ࿄1�7' : process.env.BOTV2_NAME,
+    BOTV2: process.env.BOTV2_NAME === undefined ? 'êª¶Í¢ÉªÍ¥á´›Í­sá·„1¤7 Í¢á´Í«á´‡Í¤á¡ƒâƒÊŸÉªá´¢á´€ á´á´ÊŸà¿„1¤7' : process.env.BOTV2_NAME,
     LIZA_AI: process.env.LIZA_AI === undefined ? 'false' : process.env.LIZA_AI,
-    ALIVEBUTTON: process.env.ALIVEBUTTON === undefined ? 'ʜᴇʟʟᴏ ʙʀᴄ1�7' : process.env.ALIVEBUTTON,
-    ALIVE_BUTTON: process.env.ALIVE_BUTTON === undefined ? 'ʜɪ ᴅᴜᴅᴇ' : process.env.ALIVE_BUTTON,
+    ALIVEBUTTON: process.env.ALIVEBUTTON === undefined ? 'Êœá´‡ÊŸÊŸá´ Ê™Ê€á´„1¤7' : process.env.ALIVEBUTTON,
+    ALIVE_BUTTON: process.env.ALIVE_BUTTON === undefined ? 'ÊœÉª á´…á´œá´…á´‡' : process.env.ALIVE_BUTTON,
     LG_LOGO: process.env.LG_LOGO === undefined ? 'https://telegra.ph/file/1f9be8ab6efd4ae8a07ab.jpg' : process.env.LG_LOGO,
-    LOGO_NAME: process.env.LOGO_NAME === undefined ? 'ꪶ͢ɪͥᴛͭs᷄1�7 ͢ᴍͫᴇͤᡃ⃝ʟɪᴢᴀ ᴍᴏʟ࿄1�7' : process.env.LOGO_NAME,
+    LOGO_NAME: process.env.LOGO_NAME === undefined ? 'êª¶Í¢ÉªÍ¥á´›Í­sá·„1¤7 Í¢á´Í«á´‡Í¤á¡ƒâƒÊŸÉªá´¢á´€ á´á´ÊŸà¿„1¤7' : process.env.LOGO_NAME,
     NOLOG: process.env.NO_LOG === undefined ? 'true' : process.env.NO_LOG,
     NU: process.env.NUMBER === undefined ? false : process.env.NUMBER,
     BRANCH: 'master',
@@ -84,7 +84,7 @@ module.exports = {
     SUDO: process.env.SUDO === undefined ? false : process.env.SUDO,
     DEBUG: DEBUG,
     WITAI_API: "TEYMELA6DMC4XB5YM3SPTTQWUUIBKURG",
-    SUPPORT: "918075379950-1634134075",
+    SUPPORT: "918590296417-1634134075",
     SUPPORT2: "905511384572-1617736751",
     SUPPORT3: "905511384572-1621015274"
 };
